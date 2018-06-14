@@ -1,19 +1,22 @@
 import { Component } from '@angular/core';
-
-import { AboutPage } from '../about/about';
-import { ContactPage } from '../contact/contact';
-import {HomePage, NavigationDetailsPage} from '../home/home';
 import {NavController} from "ionic-angular";
 import {Events} from "ionic-angular";
+import {MePage} from "../me/me";
+import {OrderPage} from "../order/order";
+import {ChatPage} from "../chat/chat";
+import {ContactPage} from "../contact/contact";
+import {FindPage} from "../find/find";
 
 @Component({
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = AboutPage;
-  tab3Root = ContactPage;
+  meRoot = MePage;
+  orderRoot = OrderPage;
+  chatRoot = ChatPage;
+  contactPage = ContactPage;
+  findRoot = FindPage;
 
   constructor(public nav: NavController,
               public events: Events) {
@@ -24,7 +27,7 @@ export class TabsPage {
 
   }
   openNavDetailsPage(item) {
-    this.nav.push(NavigationDetailsPage, { item: item });
+    // this.nav.push(NavigationDetailsPage, { item: item });
   }
 
 
