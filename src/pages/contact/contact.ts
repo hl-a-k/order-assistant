@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {ChatPage} from "../chat/chat";
 
 @Component({
   selector: 'page-contact',
@@ -36,8 +37,12 @@ export class ContactPage {
       portrait:'/assets/imgs/p6.jpg'
     },
   ]
-  constructor(public navCtrl: NavController) {
+  constructor(private navCtl: NavController) {
 
+  }
+
+  openNavDetailsPage(item) {
+    this.navCtl.push(ChatPage, item)
   }
 
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Events, IonicPage, NavController, NavParams} from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 import {ChatPage} from "../chat/chat";
 
 /**
@@ -61,7 +61,7 @@ export class ChathistoryPage {
     },
   ]
 
-  constructor(private events: Events) {
+  constructor(private navCtl:NavController) {
   }
 
   ionViewDidLoad() {
@@ -69,7 +69,7 @@ export class ChathistoryPage {
   }
 
   openNavDetailsPage(item) {
-    this.events.publish('openNavDetailsPage',item);
+   this. navCtl.push(ChatPage, item)
   }
 
 }
