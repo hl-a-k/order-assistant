@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class MePage {
   me = {
-    portrait:'/assets/imgs/sea.jpg',
+    portrait:'assets/imgs/sea.jpg',
     nickName:'崇坤客服',
     userName:'15977778888'
   }

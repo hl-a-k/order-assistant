@@ -18,44 +18,44 @@ export class ChathistoryPage {
   items = [
     {
       name: '周文瀚',
-      portrait:'/assets/imgs/sea.jpg',
+      portrait:'assets/imgs/sea.jpg',
       lastTime: '10:27',
       lastMsg: '我再看一下',
 
     },
     {
       name: '王振琼',
-      portrait:'/assets/imgs/p1.jpeg',
+      portrait:'assets/imgs/p1.jpeg',
       lastTime: '10:27',
       lastMsg: '我再看一下',
     },
     {
       name: '韩伟勇',
-      portrait:'/assets/imgs/p2.jpeg',
+      portrait:'assets/imgs/p2.jpeg',
       lastTime: '10:27',
       lastMsg: '我再看一下',
     },
     {
       name: '张三',
-      portrait:'/assets/imgs/pe.png',
+      portrait:'assets/imgs/pe.png',
       lastTime: '10:27',
       lastMsg: '我再看一下',
     },
     {
       name: '李四',
-      portrait:'/assets/imgs/p4.jpeg',
+      portrait:'assets/imgs/p4.jpeg',
       lastTime: '10:27',
       lastMsg: '我再看一下',
     },
     {
       name: '王五',
-      portrait:'/assets/imgs/p5.jpeg',
+      portrait:'assets/imgs/p5.jpeg',
       lastTime: '10:27',
       lastMsg: '我再看一下',
     },
     {
       name: '赵六',
-      portrait:'/assets/imgs/p6.jpg',
+      portrait:'assets/imgs/p6.jpg',
       lastTime: '10:27',
       lastMsg: '我再看一下',
     },
