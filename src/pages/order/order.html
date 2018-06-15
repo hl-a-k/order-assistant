@@ -9,4 +9,38 @@
 
 <ion-content padding>
 
+  <ion-list>
+    <div ion-item *ngFor="let order of orders">
+      <div>
+        <span>
+          {{order.shopName}}
+        </span>
+        <span>
+          {{order.status}}
+        </span>
+      </div>
+      <div>
+        <img src="{{order.orderImg}}"/>
+        <div>
+          <span>
+            {{order.orderNo}}
+          </span>
+          <span>
+            {{order.orderDesc}}
+          </span>
+        </div>
+        <div>
+          <span>
+            {{order.price}}
+          </span>
+          <span>
+            {{order.orderNum}}
+          </span>
+        </div>
+      </div>
+
+      {{ order.orderDesc }}
+    </div>
+  </ion-list>
+
 </ion-content>

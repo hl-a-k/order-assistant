@@ -1,5 +1,11 @@
+
 export class Order {
   id: number;
-  orderName: string;
-  orderSn: string;
+  shopName: string;
+  orderNo: string;
+  orderImg: string;
+  orderDesc: string;
+  price: number;
+  orderNum:number;
+  status: string;
 }
