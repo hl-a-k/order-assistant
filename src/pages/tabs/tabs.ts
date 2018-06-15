@@ -3,7 +3,7 @@ import {NavController} from "ionic-angular";
 import {Events} from "ionic-angular";
 import {MePage} from "../me/me";
 import {OrderPage} from "../order/order";
-import {ChatPage} from "../chat/chat";
+import {ChathistoryPage} from "../chathistory/chathistory";
 import {ContactPage} from "../contact/contact";
 import {FindPage} from "../find/find";
 
@@ -14,7 +14,7 @@ export class TabsPage {
 
   meRoot = MePage;
   orderRoot = OrderPage;
-  chatRoot = ChatPage;
+  chatRoot = ChathistoryPage;
   contactPage = ContactPage;
   findRoot = FindPage;
 

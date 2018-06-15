@@ -4,7 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import {MePage} from "../pages/me/me";
-import {ChatPage} from "../pages/chat/chat";
+import {ChathistoryPage} from "../pages/chathistory/chathistory";
 import {FindPage} from "../pages/find/find";
 import {OrderPage} from "../pages/order/order";
 import {ContactPage} from "../pages/contact/contact";
@@ -21,7 +21,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     FindPage,
     TabsPage,
-    ChatPage,
+    ChathistoryPage,
     OrderPage
   ],
   imports: [
@@ -35,7 +35,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     FindPage,
     TabsPage,
-    ChatPage,
+    ChathistoryPage,
     OrderPage
   ],
   providers: [
