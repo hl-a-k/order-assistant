@@ -5,14 +5,41 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>me</ion-title>
-  </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
+  <ion-item>
+    <ion-label>企业</ion-label>
+    <ion-select [(ngModel)]="notifications" interface="action-sheet">
+      <ion-option value="" [selected]="true">我的店铺</ion-option>
+      <ion-option value="mute">崇坤印业</ion-option>
+      <ion-option value="mute_week">维融</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="{{me.portrait}}">
+      </ion-avatar>
+      <h2>{{me.nickName}}</h2>
+      <p>{{me.userName}}</p>
+    </ion-item>
+  </ion-card>
+
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="openNavDetailsPage(item)" icon-start>
+      <ion-icon [name]="'logo-' + item.icon" [ngStyle]="{'color': item.color}" item-start></ion-icon>
+      {{ item.title }}
+    </button>
+  </ion-list>
+
+  <ion-footer>
+      <button ion-item icon-start class="setting">
+        <ion-icon name="settings" style="color:#0CA9EA"  item-start></ion-icon>
+        设置
+      </button>
+  </ion-footer>
 
 </ion-content>

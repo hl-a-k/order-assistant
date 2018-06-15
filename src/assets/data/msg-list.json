@@ -1,0 +1,108 @@
+{
+  "result":[
+    {
+      "messageId":"0",
+      "userId":"210000198410281948",
+      "userName":"Hancock",
+      "userImgUrl":"assets/imgs/to-user.jpg",
+      "toUserId":"140000198202211138",
+      "toUserName":"Luff",
+      "userAvatar":"assets/imgs/to-user.jpg",
+      "time":1529045432144,
+      "message":"我需要一批纸盒.",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"1",
+      "userId":"140000198202211138",
+      "userName":"Luff",
+      "userImgUrl":"assets/imgs/user.jpg",
+      "toUserId":"210000198410281948",
+      "toUserName":"Hancock",
+      "userAvatar":"assets/imgs/user.jpg",
+      "time":1529045432144,
+      "message":"好的，请问需要什么规格？",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"2",
+      "userId":"210000198410281948",
+      "userName":"Hancock",
+      "userImgUrl":"assets/imgs/to-user.jpg",
+      "toUserId":"140000198202211138",
+      "toUserName":"Luff",
+      "userAvatar":"assets/imgs/to-user.jpg",
+      "time":1529045432144,
+      "message":"要大，要厚，要便宜.",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"3",
+      "userId":"140000198202211138",
+      "userName":"Luff",
+      "userImgUrl":"assets/imgs/user.jpg",
+      "toUserId":"210000198410281948",
+      "toUserName":"Hancock",
+      "userAvatar":"assets/imgs/user.jpg",
+      "time":1529045432144,
+      "message":"标准箱，还是需要打印图案",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"4",
+      "userId":"210000198410281948",
+      "userName":"Hancock",
+      "userImgUrl":"assets/imgs/to-user.jpg",
+      "toUserId":"140000198202211138",
+      "toUserName":"Luff",
+      "userAvatar":"assets/imgs/to-user.jpg",
+      "time":1529045432144,
+      "message":"要定制",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"5",
+      "userId":"210000198410281948",
+      "userName":"Hancock",
+      "userImgUrl":"assets/imgs/to-user.jpg",
+      "toUserId":"140000198202211138",
+      "toUserName":"Luff",
+      "userAvatar":"assets/imgs/to-user.jpg",
+      "time":1529045432144,
+      "message":"这个就是外观设计图",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"6",
+      "userId":"140000198202211138",
+      "userName":"Luff",
+      "userImgUrl":"assets/imgs/user.jpg",
+      "toUserId":"210000198410281948",
+      "toUserName":"Hancock",
+      "userAvatar":"assets/imgs/user.jpg",
+      "time":1529045432144,
+      "message":"好的，我这里给你下单",
+      "status":"success",
+      "photo": ""
+    },
+    {
+      "messageId":"7",
+      "userId":"140000198202211138",
+      "userName":"Luff",
+      "userImgUrl":"assets/imgs/user.jpg",
+      "toUserId":"210000198410281948",
+      "toUserName":"Hancock",
+      "userAvatar":"assets/imgs/user.jpg",
+      "time":1529045432144,
+      "message":"订单已经创建\n ###########################################\n ###########################################\n 确认无误后，请确认订单。我们这里就为您安排生产",
+      "status":"success",
+      "photo": ""
+    }
+  ]
+}
