@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Order} from '../../order';
+import {ChatPage} from "../chat/chat";
 
 
 /**
@@ -137,11 +138,14 @@ export class OrderPage {
     }
   ]
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtl: NavController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad OrderPage');
+  }
+  openNavDetailsPage(item) {
+    this. navCtl.push(ChatPage, item)
   }
 
 }

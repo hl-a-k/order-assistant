@@ -8,39 +8,37 @@
 </ion-header>
 
 <ion-content padding>
-
-  <ion-list>
-    <div ion-item *ngFor="let order of orders">
-      <div>
-        <span>
+  <button ion-item *ngFor="let order of orders" (click)="openNavDetailsPage(order)" icon-start>
+    <div>
+        <div style="display: inline-block">
           {{order.shopName}}
-        </span>
-        <span>
-          {{order.status}}
-        </span>
+        </div>
+       <div class="left-info">
+         <p>
+           {{order.status}}
+         </p>
+        </div>
+    </div>
+    <ion-avatar item-start>
+      <img src="{{order.orderImg}}">
+    </ion-avatar>
+    <div>
+      <div  style="display: inline-block">
+        <h2>{{order.orderNo}}</h2>
+        <p>{{order.orderDesc}}</p>
       </div>
-      <div>
-        <img src="{{order.orderImg}}"/>
-        <div>
-          <span>
-            {{order.orderNo}}
-          </span>
-          <span>
-            {{order.orderDesc}}
-          </span>
-        </div>
-        <div>
-          <span>
+      <div class="left-info" >
+        <p>
             {{order.price}}
-          </span>
-          <span>
-            {{order.orderNum}}
-          </span>
-        </div>
+          </p>
+        <p>
+            x{{order.orderNum}}
+          </p>
       </div>
 
-      {{ order.orderDesc }}
     </div>
-  </ion-list>
+
+  </button>
+
 
 </ion-content>
