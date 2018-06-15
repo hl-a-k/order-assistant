@@ -6,6 +6,7 @@ import {OrderPage} from "../order/order";
 import {ChathistoryPage} from "../chathistory/chathistory";
 import {ContactPage} from "../contact/contact";
 import {FindPage} from "../find/find";
+import {ChatPage} from "../chat/chat";
 
 @Component({
   templateUrl: 'tabs.html'
@@ -18,16 +19,16 @@ export class TabsPage {
   contactPage = ContactPage;
   findRoot = FindPage;
 
-  constructor(public nav: NavController,
-              public events: Events) {
-    events.subscribe('hihi', item => {
+  constructor(private nav: NavController,
+              private events: Events) {
+    events.subscribe('openNavDetailsPage', item => {
       this.openNavDetailsPage(item);
     })
 
 
   }
   openNavDetailsPage(item) {
-    // this.nav.push(NavigationDetailsPage, { item: item });
+    this.nav.push(ChatPage, { item: item });
   }
 
 

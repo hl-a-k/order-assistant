@@ -25,6 +25,7 @@ import {interpolateParams} from "@angular/animations/browser/src/util";
 import {ChatProvider} from "../providers/chat/chat";
 import {HttpProvider} from "../providers/common/http";
 import { FileProvider } from '../providers/common/file';
+import { EmojiProvider } from '../providers/common/emoji';
 
 import { HttpClientModule } from '@angular/common/http';
 
@@ -72,6 +73,7 @@ import { Keyboard } from '@ionic-native/keyboard';
     ChatProvider,
     HttpProvider,
     FileProvider,
+    EmojiProvider,
     Keyboard,
     Camera,
     ImagePicker,
