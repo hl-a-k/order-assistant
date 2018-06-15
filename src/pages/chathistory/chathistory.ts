@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {ChatPage} from "../chat/chat";
 
 /**
  * Generated class for the ChatPage page.
@@ -65,6 +66,10 @@ export class ChathistoryPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChatPage');
+  }
+
+  openNavDetailsPage(item) {
+    this.navCtrl.push(ChatPage, item);
   }
 
 }

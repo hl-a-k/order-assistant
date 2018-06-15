@@ -10,8 +10,8 @@
 
 
 <ion-content padding>
-  <ion-card *ngFor="let item of items">
-    <ion-item>
+
+      <button ion-item *ngFor="let item of items" (click)="openNavDetailsPage(item)" icon-start>
       <ion-avatar item-start>
         <img src="{{item.portrait}}">
       </ion-avatar>
@@ -28,8 +28,6 @@
 
       </div>
 
-
-    </ion-item>
-  </ion-card>
+      </button>
 
 </ion-content>
