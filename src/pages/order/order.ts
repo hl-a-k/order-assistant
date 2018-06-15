@@ -49,6 +49,7 @@ export class OrderPage {
     },
     {
       id:1,
+      shopName: '我的淘宝',
       orderNo: '2018072332',
       orderImg: '/assets/imgs/d.jpeg',
       orderDesc: '100吨塑料粒子， 100吨原纸',
